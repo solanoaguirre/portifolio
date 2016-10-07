@@ -1,0 +1,52 @@
+body {
+    background-color: #f4cc70;
+}
+
+.intro-name {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  color: #20948b;
+}
+
+h2 {
+  color: #20948b;
+}
+
+h3 {
+  color: #6ab187;
+}
+
+.modal-content {
+    background-color: #b7b8b6;
+}
+
+.logo {
+  font-size: 100px;
+  color: #20948b;
+}
+
+.portifolio-description {
+  margin: 10px 15px 0 0;
+  color: #20948b;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 985px) {
+
+.container {
+  margin:0 30px 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intro-name {
+  margin-top: 10px;
+}
+
+}
