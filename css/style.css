@@ -35,23 +35,25 @@ h3 {
 }
 
 @media screen and (max-width: 985px) {
+  h3{
+    font-size: 30px;
+  }
 
-.container {
-  width: 100%;
-}
-
-.small-img {
-  width:100%;
-}
-
-.img-responsive {
+  .container {
+    width: 100%;
     margin:0 auto 0 auto;
-    width:100%;
-}
+  }
 
 
-.intro-name {
-  margin-top: 10px;
-}
+  .small-img {
+    width: 100%;
+  }
 
+  .img-responsive {
+      width: 100%;
+  }
+
+  .intro-name {
+    margin-top: 10px;
+  }
 }
