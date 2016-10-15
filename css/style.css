@@ -3,7 +3,7 @@ body {
 }
 
 .intro-name {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
@@ -35,13 +35,10 @@ h3 {
 }
 
 @media screen and (max-width: 985px) {
-  h3{
-    font-size: 30px;
-  }
 
   .container {
     width: 100%;
-    margin:0 auto 0 auto;
+    margin: 0 auto;
   }
 
 
@@ -56,4 +53,22 @@ h3 {
   .intro-name {
     margin-top: 10px;
   }
+}
+
+
+@media screen and (min-width: 315px) and (max-width: 600px) {
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .logo {
+    font-size: 70px;
+    margin-top: 10px;
+  }
+
 }
